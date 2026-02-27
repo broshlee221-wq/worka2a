@@ -1,0 +1,17 @@
+{
+  "name": "a2a-system",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node start.js",
+    "orchestrator": "node agents/orchestrator/index.js",
+    "coder": "node agents/coder/index.js",
+    "researcher": "node agents/researcher/index.js",
+    "file-agent": "node agents/file-agent/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^4.18.0",
+    "uuid": "^9.0.0"
+  }
+}
